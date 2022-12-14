@@ -10,4 +10,7 @@
   I'm 32 years old and work as chemical specialist R&G at a pharmaceutical company. 
 
   I think I can describe myself as sensible, collaborative pearson, but also I'm quite direct. I believe my learning and assertive abilities will help me to gain essencial and required skills in Front-end development.
+  =========
+  ##Courses##
+  RS schools Course "Java Script/Front-end. Stage 0" (in progress)
   
