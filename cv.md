@@ -13,4 +13,8 @@
   =========
   ##Courses##
   RS schools Course "Java Script/Front-end. Stage 0" (in progress)
-  
+  ==========
+  ##Languages##
+ * Russian - Native
+ * English -Upper-Intermediate (Streamline)
+ * Polish - Pre-Intermediate (A2) 
