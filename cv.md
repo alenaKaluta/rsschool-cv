@@ -2,7 +2,6 @@
 ![alt-avatar](D:\WinUsers\UserHome\Desktop\RS-SCHOOL\rsschool-cv>/images/avatar.jpg)
 
 =========
-
 #Contact Information#
 * Phone: +375292231600
 * E-mail: lenkazasloveskya@gmail.com
