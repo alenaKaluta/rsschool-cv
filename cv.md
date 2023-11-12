@@ -21,10 +21,10 @@ function multiply(a,b){
 ## Education
 ### University: 
 * Belarussian State Technological University
-Organic Substances Technology Faculty
-    Department of Biotechnology
+    * Organic Substances Technology Faculty
+        *  Department of Biotechnology
 ### Courses: 
-    RS School Course 'Java Script/ Front-end. Stage 1' (in progress)
+* RS School Course 'Java Script/ Front-end. Stage 1' (in progress)
 ***
 ## Languages
 - Russian - Native
