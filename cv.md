@@ -1,5 +1,5 @@
 #_Alena Kaliuta_   
-![photo](https://alenaKaluta.github.io/rsschool-cv/Lena.jpg)
+![photo](https://github.com/alenaKaluta/rsschool-cv/tree/gh-pages/Lena.jpg)
 ## Contact information
 * Phone: +375292231600
 * E-mail: Lenkazasloveskya@gmail.com
