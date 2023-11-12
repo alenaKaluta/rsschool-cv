@@ -1,4 +1,5 @@
 #_Alena Kaliuta_   
+![photo](/stage1/rsschool-cv/Lena.jpg)
 ## Contact information
 * Phone: +375292231600
 * E-mail: Lenkazasloveskya@gmail.com
