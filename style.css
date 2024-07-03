@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Teko";
+    src: url("assets/fonts/Teko-Light.ttf");
+  }
+
+@font-face {
+    font-family: "Teko";
+    src: url("assets/fonts/Teko-Medium.ttf");
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Teko", sans-serif;
+    min-height: 100vh;
+    margin:0;
+  }
+  header{
+    margin: 0;
+    font: 18px/2 "Teko", sans-serif;
+    background-color: #F5B7B1 ;
+}
+  nav{
+    font: 18px/2 "Teko", sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    transition: 0.3s
+}
+.nav-link{
+    padding: 0 20px;
+    font-size: 24px;
+    line-height: 50px;
+    color: #F8F9F9 ;
+    text-decoration: none;
+}
+.nav-link:hover {
+color: #F9EBEA ;
+}
