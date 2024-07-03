@@ -50,3 +50,38 @@
 .nav-link:hover {
 color: #F9EBEA ;
 }
+.section-profile{
+    width: 100%;
+}
+.container-main{
+    diplay: flex;
+    flex-wrap: wrap;
+}
+.section-profile{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 1.5;
+    font-family: "Teko", sans-serif;
+    text-transform: uppercase;
+    width: 50%;
+
+}
+.photo{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+.section{
+    width: 50%;
+}
+@media (max-width: 760px){
+    .section{
+        width: 100%;
+    }
+}
