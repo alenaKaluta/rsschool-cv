@@ -17,11 +17,12 @@
   body{
     font-style: normal;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 32px;
     line-height: 1.5;
     font-family: "Teko", sans-serif;
     min-height: 100vh;
     margin:0;
+    color: #34495E;
   }
   header{
     margin: 0;
@@ -50,12 +51,9 @@
 .nav-link:hover {
 color: #F9EBEA ;
 }
+/* Section Profile */
 .section-profile{
     width: 100%;
-}
-.container-main{
-    diplay: flex;
-    flex-wrap: wrap;
 }
 .section-profile{
     display:flex;
@@ -66,16 +64,25 @@ color: #F9EBEA ;
     font-style: normal;
     font-weight: 500;
     font-size: 64px;
-    line-height: 1.5;
     font-family: "Teko", sans-serif;
     text-transform: uppercase;
-    width: 50%;
-
+}
+.profile-photo{
+    margin: auto;
 }
 .photo{
-    width: 400px;
+    width: 550;
     height: 400px;
-    border-radius: 50%;
+    border-radius: 30%;
+}
+.profile-info{
+    margin: auto;
+}
+/* Container-main*/
+.container-main{
+    display: flex;
+    direction: row;
+    flex-wrap: wrap;
 }
 .section{
     width: 50%;
@@ -85,3 +92,48 @@ color: #F9EBEA ;
         width: 100%;
     }
 }
+.title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    font-family: "Teko", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+/* Section Contacts */
+.contacts-list{
+    list-style: none;
+    margin:auto;
+}
+.contacts-item{
+    list-style: none;
+    transition: 0.3s;
+}
+.contacts-info{
+    display:flex;
+    flex-direction: row;
+    width: 50%;
+    margin-left: 50px;
+}
+.contacts-img{
+    height: 25px;
+    width: 25px;
+    flex-shrink: 1;
+}
+.contacts-data{
+    padding-left: 20px;
+}
+.contacts-link{
+    font-size: 24px;
+    text-decoration: none;
+    color: #34495E;
+}
+.contacts-link:hover {
+color: #61100a ;
+}
+/* Section Summary*/
+.summary-info{
+    margin: 0;
+    padding: 0 30px;
+}
+/* Section Skills*/
