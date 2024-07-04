@@ -141,3 +141,21 @@ color: #61100a ;
     padding: 0 30px;
 }
 /* Section Skills*/
+.skills-list{
+    margin-left: 30px;
+}
+.skills-item{
+    padding-left: 10px;
+}
+.skills-data{
+    font-weight: 500;
+    margin: 0;
+}
+.skills-data-addition{
+    font-weight: 300;
+    color: #D98880;
+}
+/* Section Code*/
+.code-example{
+    background-color: aliceblue;
+}
