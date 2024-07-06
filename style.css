@@ -47,7 +47,7 @@
     transition: 0.3s
 }
 .nav-link{
-    margin: 30px;
+    margin: 0 auto;
     padding: 0 20px;
     font-size: 36px;
     line-height: 50px;
@@ -105,6 +105,7 @@ color: #F9EBEA ;
     }
 }
 .title{
+    margin: 0 auto;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
