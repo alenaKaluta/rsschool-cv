@@ -20,14 +20,15 @@
     font-size: 32px;
     line-height: 1.5;
     font-family: "Teko", sans-serif;
-    min-height: 100vh;
     margin:0;
     color: #34495E;
+    background-color: #FBEEE6;
   }
   header{
     margin: 0;
+    padding: 15px;
     font: 18px/2 "Teko", sans-serif;
-    background-color: #F5B7B1 ;
+    background-color: #6D5D40;
 }
   nav{
     font: 18px/2 "Teko", sans-serif;
@@ -46,8 +47,9 @@
     transition: 0.3s
 }
 .nav-link{
+    margin: 30px;
     padding: 0 20px;
-    font-size: 24px;
+    font-size: 36px;
     line-height: 50px;
     color: #F8F9F9 ;
     text-decoration: none;
@@ -62,7 +64,7 @@ color: #F9EBEA ;
 .section-profile{
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 }
 .name{
     font-style: normal;
@@ -72,7 +74,7 @@ color: #F9EBEA ;
     text-transform: uppercase;
 }
 .profile-photo{
-    margin: auto;
+    margin:auto;
 }
 .photo{
     width: 550px;
@@ -82,6 +84,11 @@ color: #F9EBEA ;
 .profile-info{
     margin: auto;
 }
+.profile-data{
+    font-size: 40px;
+    font-style: italic;
+    color: #61100a;;
+}
 /* Container-main*/
 .container-main{
     display: flex;
@@ -89,7 +96,8 @@ color: #F9EBEA ;
     flex-wrap: wrap;
 }
 .section{
-    width: 50%;   
+    width: 50%;
+    color: #F5B7B1;   
 }
 @media (max-width: 760px){
     .section{
@@ -128,17 +136,22 @@ color: #F9EBEA ;
     padding-left: 20px;
 }
 .contacts-link{
-    font-size: 24px;
+    font-size: 32px;
     text-decoration: none;
     color: #34495E;
 }
 .contacts-link:hover {
-color: #61100a ;
+color: #61100a;
 }
 /* Section Summary*/
 .summary-info{
+    color: #34495E;
     margin: 0;
     padding: 0 30px;
+}
+/* Section Code*/
+.code-example{
+    color: #34495E;
 }
 /* Section Skills*/
 .skills-list{
@@ -149,12 +162,13 @@ color: #61100a ;
     padding-left: 10px;
 }
 .skills-data{
-    font-weight: 500;
+    color: #34495E;
+    font-weight: 300;
     margin: 0;
 }
 .skills-data-addition{
     font-weight: 300;
-    color: #D98880;
+    color: #61100a;
 }
 /* Section Languages*/
 .language{
@@ -166,12 +180,13 @@ color: #61100a ;
 }
 
 .language-name{
-    font-weight: 500;
+    color: #34495E;
+    font-weight: 300;
     margin: 0;
 }
 .language-level{
     font-weight: 300;
-    color: #D98880;
+    color: #61100a;
 }
 .language-link{
     font-size: 24px;
@@ -179,7 +194,7 @@ color: #61100a ;
     color: #34495E;
 }
 .language-link:hover {
-    color: #61100a ;
+    color: #61100a;
     }
 /* Section Education*/
 .education-item{
@@ -196,14 +211,19 @@ color: #61100a ;
     height: 18px;
 }
 .education-data{
-    font-weight: 500;
+    color: #34495E;
+    font-weight: 300;
     margin: 0;
 }
 .education-data-addition{
     font-weight: 300;
-    color: #D98880;
+    color: #61100a;
 }
 /* footer*/
+.footer{
+    color: #F8F9F9;
+    background-color: #6D5D40;
+}
 .footer-container{
     display: flex;
     flex-direction: row;
@@ -220,19 +240,19 @@ color: #61100a ;
     font-size: 48px;
 }
 .copyright-symbol{
-    width: 32px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
 }
 .footer-github{
     margin: 0 20px;
 }
 .footer-link{
     font-size: 48px;
+    color: #F8F9F9;
     text-decoration: none;
-    color: #34495E;
 }
 .footer-link:hover {
-color: #61100a ;
+color: #F9EBEA;
 }
 .footer-school{
     margin: 0 20px;
@@ -242,7 +262,7 @@ color: #61100a ;
     color: #34495E;
 }
 .rs-school-link:hover {
-    color: #61100a ;
+    color: #F9EBEA;
     }
 .school-logo{
     width: 150px;
