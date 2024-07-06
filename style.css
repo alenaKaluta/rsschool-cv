@@ -1,0 +1,271 @@
+@font-face {
+    font-family: "Teko";
+    src: url("assets/fonts/Teko-Light.ttf");
+  }
+
+@font-face {
+    font-family: "Teko";
+    src: url("assets/fonts/Teko-Medium.ttf");
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 1.5;
+    font-family: "Teko", sans-serif;
+    margin:0;
+    color: #34495E;
+    background-color: #FBEEE6;
+  }
+  header{
+    margin: 0;
+    padding: 15px;
+    font: 18px/2 "Teko", sans-serif;
+    background-color: #6D5D40;
+}
+  nav{
+    font: 18px/2 "Teko", sans-serif;
+}
+.nav-list{
+    margin: 0;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    transition: 0.3s
+}
+.nav-link{
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 36px;
+    line-height: 50px;
+    color: #F8F9F9 ;
+    text-decoration: none;
+}
+.nav-link:hover {
+color: #F9EBEA ;
+}
+/* Section Profile */
+.section-profile{
+    width: 100%;
+}
+.section-profile{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    font-family: "Teko", sans-serif;
+    text-transform: uppercase;
+}
+.profile-photo{
+    margin:auto;
+}
+.photo{
+    width: 550px;
+    height: 500px;
+    border-radius: 30%;
+}
+.profile-info{
+    margin: auto;
+}
+.profile-data{
+    font-size: 40px;
+    font-style: italic;
+    color: #61100a;;
+}
+/* Container-main*/
+.container-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.section{
+    width: 50%;
+    color: #F5B7B1;   
+}
+@media (max-width: 760px){
+    .section{
+        width: 100%;
+    }
+}
+.title{
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    font-family: "Teko", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+/* Section Contacts */
+.contacts-list{
+    list-style: none;
+    margin:auto;
+}
+.contacts-item{
+    list-style: none;
+    transition: 0.3s;
+}
+.contacts-info{
+    display:flex;
+    flex-direction: row;
+    width: 50%;
+    margin-left: 50px;
+}
+.contacts-img{
+    height: 25px;
+    width: 25px;
+    flex-shrink: 1;
+}
+.contacts-data{
+    padding-left: 20px;
+}
+.contacts-link{
+    font-size: 32px;
+    text-decoration: none;
+    color: #34495E;
+}
+.contacts-link:hover {
+color: #61100a;
+}
+/* Section Summary*/
+.summary-info{
+    color: #34495E;
+    margin: 0;
+    padding: 0 30px;
+}
+/* Section Code*/
+.code-example{
+    color: #34495E;
+}
+/* Section Skills*/
+.skills-list{
+    margin-left: 30px;
+}
+.skills-item{
+    list-style: circle;
+    padding-left: 10px;
+}
+.skills-data{
+    color: #34495E;
+    font-weight: 300;
+    margin: 0;
+}
+.skills-data-addition{
+    font-weight: 300;
+    color: #61100a;
+}
+/* Section Languages*/
+.language{
+    margin-left: 20px;
+}
+.language-item{
+    list-style: circle;
+    padding-left: 10px;
+}
+
+.language-name{
+    color: #34495E;
+    font-weight: 300;
+    margin: 0;
+}
+.language-level{
+    font-weight: 300;
+    color: #61100a;
+}
+.language-link{
+    font-size: 24px;
+    text-decoration: none;
+    color: #34495E;
+}
+.language-link:hover {
+    color: #61100a;
+    }
+/* Section Education*/
+.education-item{
+    list-style: none;
+    padding-left: 10px;
+    display:flex;
+    flex-direction: row;
+}
+.education-status{
+    margin: 0 5px;
+}
+.education-done{
+    width: 18px;
+    height: 18px;
+}
+.education-data{
+    color: #34495E;
+    font-weight: 300;
+    margin: 0;
+}
+.education-data-addition{
+    font-weight: 300;
+    color: #61100a;
+}
+/* footer*/
+.footer{
+    color: #F8F9F9;
+    background-color: #6D5D40;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-date{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.date-info{
+    margin: 0 20px;
+    font-size: 48px;
+}
+.copyright-symbol{
+    width: 24px;
+    height: 24px;
+}
+.footer-github{
+    margin: 0 20px;
+}
+.footer-link{
+    font-size: 48px;
+    color: #F8F9F9;
+    text-decoration: none;
+}
+.footer-link:hover {
+color: #F9EBEA;
+}
+.footer-school{
+    margin: 0 20px;
+}
+.rs-school-link{
+    text-decoration: none;
+    color: #34495E;
+}
+.rs-school-link:hover {
+    color: #F9EBEA;
+    }
+.school-logo{
+    width: 150px;
+    height: max-content;
+}
