@@ -75,8 +75,8 @@ color: #F9EBEA ;
     margin: auto;
 }
 .photo{
-    width: 550;
-    height: 400px;
+    width: 550px;
+    height: 500px;
     border-radius: 30%;
 }
 .profile-info{
@@ -85,7 +85,7 @@ color: #F9EBEA ;
 /* Container-main*/
 .container-main{
     display: flex;
-    direction: row;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 .section{
@@ -145,6 +145,7 @@ color: #61100a ;
     margin-left: 30px;
 }
 .skills-item{
+    list-style: circle;
     padding-left: 10px;
 }
 .skills-data{
@@ -201,4 +202,49 @@ color: #61100a ;
 .education-data-addition{
     font-weight: 300;
     color: #D98880;
+}
+/* footer*/
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-date{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.date-info{
+    margin: 0 20px;
+    font-size: 48px;
+}
+.copyright-symbol{
+    width: 32px;
+    height: 30px;
+}
+.footer-github{
+    margin: 0 20px;
+}
+.footer-link{
+    font-size: 48px;
+    text-decoration: none;
+    color: #34495E;
+}
+.footer-link:hover {
+color: #61100a ;
+}
+.footer-school{
+    margin: 0 20px;
+}
+.rs-school-link{
+    text-decoration: none;
+    color: #34495E;
+}
+.rs-school-link:hover {
+    color: #61100a ;
+    }
+.school-logo{
+    width: 150px;
+    height: max-content;
 }
