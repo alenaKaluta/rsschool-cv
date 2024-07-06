@@ -89,7 +89,7 @@ color: #F9EBEA ;
     flex-wrap: wrap;
 }
 .section{
-    width: 50%;
+    width: 50%;   
 }
 @media (max-width: 760px){
     .section{
@@ -155,7 +155,50 @@ color: #61100a ;
     font-weight: 300;
     color: #D98880;
 }
-/* Section Code*/
-.code-example{
-    background-color: aliceblue;
+/* Section Languages*/
+.language{
+    margin-left: 20px;
+}
+.language-item{
+    list-style: circle;
+    padding-left: 10px;
+}
+
+.language-name{
+    font-weight: 500;
+    margin: 0;
+}
+.language-level{
+    font-weight: 300;
+    color: #D98880;
+}
+.language-link{
+    font-size: 24px;
+    text-decoration: none;
+    color: #34495E;
+}
+.language-link:hover {
+    color: #61100a ;
+    }
+/* Section Education*/
+.education-item{
+    list-style: none;
+    padding-left: 10px;
+    display:flex;
+    flex-direction: row;
+}
+.education-status{
+    margin: 0 5px;
+}
+.education-done{
+    width: 18px;
+    height: 18px;
+}
+.education-data{
+    font-weight: 500;
+    margin: 0;
+}
+.education-data-addition{
+    font-weight: 300;
+    color: #D98880;
 }
