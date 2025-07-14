@@ -13,6 +13,7 @@
   }
   html {
     scroll-behavior: smooth;
+    margin: 0 auto;
   }
   body{
     font-style: normal;
